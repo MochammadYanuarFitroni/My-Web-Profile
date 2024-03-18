@@ -1,0 +1,59 @@
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191838;
+}
+
+/* Navbar */
+.container-fluid{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+/* Home Section */
+.font-cre h1{
+    font-size: 2.3rem;
+    background-image: linear-gradient(#ff00df, #ff7300);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.font-cre p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px;
+}
+.font-cre p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.font-cre a {
+    font-size: 25px;
+    text-decoration: none;
+}
+.font-cre a:hover{
+    color: #0d6dfd;
+}
+.font-cre a span{
+    padding: 10px;
+}
+
+.download-cv a{
+    font-size: 23px;
+    padding: 10px 25px 10px 25px;
+}
+
+.img-cre{
+    width: 100%;
+    object-fit: cover;
+}
