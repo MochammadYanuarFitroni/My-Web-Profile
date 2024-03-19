@@ -6,6 +6,11 @@ body{
 }
 
 /* Navbar */
+.navbar{
+    background-color: #191838;
+    padding: 1rem 0;
+    transition: all 0.5s;
+}
 .container-fluid{
     margin-left: 4rem;
     margin-right: 4rem;
@@ -20,6 +25,10 @@ body{
 }
 
 /* Home Section */
+#home{
+    padding: 100px 0 30px 0;
+}
+
 .font-cre h1{
     font-size: 2.3rem;
     background-image: linear-gradient(#ff00df, #ff7300);
@@ -54,6 +63,35 @@ body{
 }
 
 .img-cre{
-    width: 100%;
+    width: 70%;
     object-fit: cover;
+    padding: 10px;
+}
+
+/* About Section */
+#about{
+    padding: 100px 0 30px 0;
+    color: #fff;
+}
+
+/* Social Section */
+#social{
+    padding: 100px 0 30px 0;
+    color: #fff;
+}
+
+#social .list-group{
+    font-size: 1.5rem;
+}
+#social .list-group-item a{
+    text-decoration: none;
+}
+#social .list-group-item a span{
+    margin-left: 20px;
+    color: #fff;
+}
+#social .list-group-item i{
+    font-size: 3rem;
+    vertical-align: middle;
+    color: #fff;
 }
