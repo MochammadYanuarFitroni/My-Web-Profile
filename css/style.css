@@ -6,10 +6,14 @@ body{
 }
 
 /* Navbar */
+*{
+    z-index: 1;
+}
 .navbar{
     background-color: #191838;
     padding: 1rem 0;
     transition: all 0.5s;
+    z-index: 3;
 }
 .container-fluid{
     margin-left: 4rem;
@@ -74,6 +78,36 @@ body{
     color: #fff;
 }
 
+/* Portofolio Section */
+#portofolio{
+    padding: 100px 0 30px 0;
+    color: #fff;
+}
+
+.porto{
+    padding: 10px 17px 22px;
+}
+.porto .card{
+    background-color: #1d1c41;
+    color: #fff;
+    border: 1px solid #1c3741;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-pills .nav-link{
+    border: 2px solid #8f8f8f;
+    color: #8f8f8f;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border: 2px solid #236ddd;
+}
+
 /* Social Section */
 #social{
     padding: 100px 0 30px 0;
@@ -94,4 +128,11 @@ body{
     font-size: 3rem;
     vertical-align: middle;
     color: #fff;
+}
+
+/* footer */
+footer{
+    padding: 20px 0 20px 0;
+    color: #fff;
+    vertical-align: middle;
 }

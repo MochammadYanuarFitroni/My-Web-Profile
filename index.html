@@ -22,7 +22,10 @@
     rel="stylesheet">
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="css/responsive.css" />
   <title>Web Profile Yanuar</title>
 </head>
 
@@ -31,23 +34,23 @@
   <header>
     <nav class="navbar navbar-expand-lg border-bottom border-secondary position-fixed w-100" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">-Yanuar-</a>
+        <a class="navbar-brand" href="#home">-MYanuarF-</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-auto">
               <a class="nav-link" href="#home">Home</a>
             </li>
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-auto">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Portofolio</a>
+            <li class="nav-item mx-auto">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
             </li>
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-auto">
               <a class="nav-link" href="#social">Social</a>
             </li>
           </ul>
@@ -56,130 +59,442 @@
     </nav>
   </header>
 
-  <!-- Home Section -->
-  <section id="home">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-7 font-cre">
-          <h1 class="fw-bold">Hello, I'm Mochammad Yanuar Fitroni</h1>
-          <p><span>I'm a Web Developer & Game Developer</span><br>I'm fresh graduate in computer science interest in
-            various things like technology and programming</p>
-          <a href="https://www.linkedin.com/in/mochyanuarfitroni/"
-            class="border border-3 border-primary rounded-pill me-2"><span>LinkedIn <i
-                class="fa-brands fa-linkedin"></i></span></a>
-          <a href="https://github.com/MochammadYanuarFitroni"
-            class="border border-3 border-primary rounded-pill me-2"><span>Github <i
-                class="fa-brands fa-square-github"></i></span></a>
-          <div class="col mt-4 download-cv">
-            <a href="Assets/CV - Mochammad Yanuar Fitroni.pdf" class="btn btn-primary rounded-pill"
-              download="CV-Mochammad Yanuar Fitroni">Download CV</a>
-          </div>
-        </div>
-        <div class="col-lg-5 d-flex justify-content-center">
-          <img src="Assets/fotoku.jpg" alt="" class="img-cre rounded-circle border border-3 border-info">
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Main -->
+  <Main>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container h-100">
-      <h1 class="fw-bold text-center">About Me</h1>
-      <p class="text-center">I'm a fresh graduate in computer science interest in various things like technology and
-        programming. I
-        have a good understanding of programming languages like C++, Java, and Python. I also have a good
-        understanding of web development and game development. I'm a fast learner and I'm always eager to learn new
-        things.</p>
-      <div class="row h-100">
-        <div class="col-lg-4">
-          <h4 class="fw-bold text-center border-bottom border-secondary">Education</h4>
-          <ul>
-            <li>
-              <h6 class="fw-bold">UPN "Veteran" Jawa timur</h6>
-              <p class="text-secondary">(2019-2024, Informatic Department)</p>
-            </li>
-            <li>
-              <h6 class="fw-bold">SMKN 1 Sidoarjo</h6>
-              <p class="text-secondary">(2016-2019, wood construction engineering Department)</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <h4 class="fw-bold text-center border-bottom border-secondary">Experience</h4>
-          <ul>
-            <li>
-              <h6 class="fw-bold">ICE Institute | Microcredential Game Developer</h6>
-              <p class="text-secondary">(Feb 2022-Jul 2022, Game Programmer Apprenticeship)</p>
-            </li>
-            <li>
-              <h6 class="fw-bold">DISPERINAKER Kota Surabaya</h6>
-              <p class="text-secondary">(Sep 2022-Okt 2022, Web Programmer Intership)</p>
-            </li>
-            <li>
-              <h6 class="fw-bold">Bangkit Academy 2023 | Cloud Computing Learning Path</h6>
-              <p class="text-secondary">(Feb 2023–Jul 2023, Cloud Computing Apprenticeship)</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <h4 class="fw-bold text-center border-bottom border-secondary">Skill</h4>
-          <div class="d-flex justify-content-around">
-            <ul>
-              <li>Javascript</li>
-              <li>PHP</li>
-              <li>MySQL</li>
-              <li>C#</li>
-            </ul>
-            <ul>
-              <li>Web development</li>
-              <li>Game development</li>
-              <li>Git Version Control</li>
-              <li>Bootstrap</li>
-            </ul>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-7 font-cre">
+            <h1 class="fw-bold">Hello, I'm Mochammad Yanuar Fitroni</h1>
+            <p><span>I'm a Web Developer & Game Developer</span><br>I'm fresh graduate in computer science interest in
+              various things like technology and programming</p>
+            <a href="https://www.linkedin.com/in/mochyanuarfitroni/"
+              class="border border-3 border-primary rounded-pill me-2"><span>LinkedIn <i
+                  class="fa-brands fa-linkedin"></i></span></a>
+            <a href="https://github.com/MochammadYanuarFitroni"
+              class="border border-3 border-primary rounded-pill me-2"><span>Github <i
+                  class="fa-brands fa-square-github"></i></span></a>
+            <div class="col mt-4 download-cv">
+              <a href="Assets/CV - Mochammad Yanuar Fitroni.pdf" class="btn btn-primary rounded-pill"
+                download="CV-Mochammad Yanuar Fitroni">Download CV</a>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center img-res">
+            <img src="Assets/fotoku.jpg" alt="" class="img-cre rounded-circle border border-3 border-info">
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Social Section -->
-  <section id="social">
-    <div class="container h-100">
-      <h1 class="fw-bold text-center">Social</h1>
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-6">
-          <h4 class="fw-bold border-bottom border-secondary">My Social Media</h4>
-          <p class="fs-6">At the moment, I'm actively seeking fresh prospects. You can locate me on social platforms as well as my
-            GitHub profile. Don't hesitate to reach out and connect with me.</p>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container h-100">
+        <h1 class="fw-bold text-center my-3">About Me</h1>
+        <p class="text-center">I'm a fresh graduate in computer science interest in various things like technology and
+          programming. I
+          have a good understanding of programming languages like C++, Java, and Python. I also have a good
+          understanding of web development and game development. I'm a fast learner and I'm always eager to learn new
+          things.</p>
+        <div class="row h-100">
+          <div class="col-lg-4">
+            <h4 class="fw-bold text-center border-bottom border-secondary">Education</h4>
+            <ul>
+              <li>
+                <h6 class="fw-bold">UPN "Veteran" Jawa timur</h6>
+                <p class="text-secondary">(2019-2024, Informatic Department)</p>
+              </li>
+              <li>
+                <h6 class="fw-bold">SMKN 1 Sidoarjo</h6>
+                <p class="text-secondary">(2016-2019, wood construction engineering Department)</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold text-center border-bottom border-secondary">Experience</h4>
+            <ul>
+              <li>
+                <h6 class="fw-bold">ICE Institute | Microcredential Game Developer</h6>
+                <p class="text-secondary">(Feb 2022-Jul 2022, Game Programmer Apprenticeship)</p>
+              </li>
+              <li>
+                <h6 class="fw-bold">DISPERINAKER Kota Surabaya</h6>
+                <p class="text-secondary">(Sep 2022-Okt 2022, Web Programmer Internship)</p>
+              </li>
+              <li>
+                <h6 class="fw-bold">Bangkit Academy 2023 | Cloud Computing Learning Path</h6>
+                <p class="text-secondary">(Feb 2023–Jul 2023, Cloud Computing Apprenticeship)</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold text-center border-bottom border-secondary">Skill</h4>
+            <div class="d-flex justify-content-around">
+              <ul>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>C#</li>
+                <li>Node.Js</li>
+              </ul>
+              <ul>
+                <li>Web development</li>
+                <li>Game development</li>
+                <li>Git Version Control</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center">
-          <ul class="list-group">
-            <li class="list-group-item bg-transparent border-0">
+      </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio">
+      <div class="container h-100">
+        <h1 class="fw-bold text-center my-3">Portofolio</h1>
+        <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item mx-2" role="presentation">
+            <button class="nav-link rounded-pill active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item mx-2" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Web-tab" data-bs-toggle="pill" data-bs-target="#pills-Web"
+              type="button" role="tab" aria-controls="pills-Web" aria-selected="false">Web</button>
+          </li>
+          <li class="nav-item mx-2" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-Game-tab" data-bs-toggle="pill" data-bs-target="#pills-Game"
+              type="button" role="tab" aria-controls="pills-Game" aria-selected="false">Game</button>
+          </li>
+          <li class="nav-item mx-2" role="presentation">
+            <button class="nav-link rounded-pill" id="pills-NodeJs-tab" data-bs-toggle="pill" data-bs-target="#pills-NodeJs"
+              type="button" role="tab" aria-controls="pills-NodeJs" aria-selected="false">Node.Js</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <!-- Tab Portofolio All -->
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Garbage Sorter.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Garbage Sorter</h5>
+                    <p class="card-text">
+                      The game was developed to educate users about different categories of waste. It was built
+                      using Unity Game Engine and C#.</p>
+                    <a href="https://yitroni.itch.io/garbage-sorter"
+                      class="btn btn-outline-primary border-2 me-2">itch.io <i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://github.com/teamldh/Garbage-Sorter_Game"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Disperinaker.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Sistem Informasi Disperinaker Kota Surabaya</h5>
+                    <p class="card-text">
+                      Create a prototype to educate users about dashboard use and management Disperinaker Kota Surabaya.
+                    </p>
+                    <a href="https://github.com/wahyunugrohogultom/Dispernaker"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Hotel yamato.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Insiden Hotel Yamato</h5>
+                    <p class="card-text">
+                      This game was developed to educate users to get to know the heroes of the battle at the Yamato
+                      Hotel. It was built
+                      using Unity Game Engine and C#.</p>
+                    <a href="https://yitroni.itch.io/hotel-yamato" class="btn btn-outline-primary border-2 me-2">itch.io
+                      <i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://github.com/teamldh/Hotel-Yamato" class="btn btn-outline-primary border-2">Github <i
+                        class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/JWP.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Toko Alat Kesehatan</h5>
+                    <p class="card-text">
+                      The website provides information about medical equipment stores. This website is a simple project
+                      built using PHP Native and Bootstrap.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Toko-Online"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Naksu API.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Terjemahkan Aksara Sunda | API</h5>
+                    <p class="card-text">
+                      Backend program for the Sundanese script translation application's API is built using NodeJS and
+                      Firebase, deployed on Google Cloud</p>
+                    <a href="https://github.com/AxelChristian/bangkitcapstone"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Statkom-Analisis.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Statistika Komputasi</h5>
+                    <p class="card-text">
+                      A simple website using PHP for computing statistics regarding Mean, Median, Mode, Variance,
+                      Standard deviation on the number of photos in the smart phone owner's gallery.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Statkom-Analisis"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Statkom-Naive_Bayes.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Seleksi Ujian Masuk Mahasiswa dengan Naive Bayes</h5>
+                    <p class="card-text">
+                      A simple decision support system uses the Naive Bayes algorithm to select new student entrance
+                      exams. This system was built using PHP with MySQL.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Statkom-Naive_Bayes"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Web Profile.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Profile</h5>
+                    <p class="card-text">
+                      My personal website displays about me and this website was built using HTML, CSS, and Bootstrap
+                    </p>
+                    <a href="https://github.com/MochammadYanuarFitroni/My-Web-Profile"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Back-End API.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Bookshelf API</h5>
+                    <p class="card-text">
+                      Basic back-end was built using Node.Js and this project was created to fulfill assignments or
+                      submissions from the Dicoding course.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Back-End_Basic"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Portofolio Web -->
+          <div class="tab-pane fade" id="pills-Web" role="tabpanel" aria-labelledby="pills-Web-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Disperinaker.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Sistem Informasi Disperinaker Kota Surabaya</h5>
+                    <p class="card-text">
+                      Create a prototype to educate users about dashboard use and management Disperinaker Kota Surabaya.
+                    </p>
+                    <a href="https://github.com/wahyunugrohogultom/Dispernaker"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/JWP.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Toko Alat Kesehatan</h5>
+                    <p class="card-text">
+                      The website provides information about medical equipment stores. This website is a simple project
+                      built using PHP Native and Bootstrap.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Toko-Online"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Statkom-Analisis.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Statistika Komputasi</h5>
+                    <p class="card-text">
+                      A simple website using PHP for computing statistics regarding Mean, Median, Mode, Variance,
+                      Standard deviation on the number of photos in the smart phone owner's gallery.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Statkom-Analisis"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Statkom-Naive_Bayes.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Seleksi Ujian Masuk Mahasiswa dengan Naive Bayes</h5>
+                    <p class="card-text">
+                      A simple decision support system uses the Naive Bayes algorithm to select new student entrance
+                      exams. This system was built using PHP with MySQL.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Statkom-Naive_Bayes"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Web Profile.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Profile</h5>
+                    <p class="card-text">
+                      My personal website displays about me and this website was built using HTML, CSS, and Bootstrap
+                    </p>
+                    <a href="https://github.com/MochammadYanuarFitroni/My-Web-Profile"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Portofolio Game -->
+          <div class="tab-pane fade" id="pills-Game" role="tabpanel" aria-labelledby="pills-Game-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Garbage Sorter.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Garbage Sorter</h5>
+                    <p class="card-text">
+                      The game was developed to educate users about different categories of waste. It was built
+                      using Unity Game Engine and C#.</p>
+                    <a href="https://yitroni.itch.io/garbage-sorter"
+                      class="btn btn-outline-primary border-2 me-2">itch.io <i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://github.com/teamldh/Garbage-Sorter_Game"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Hotel yamato.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Insiden Hotel Yamato</h5>
+                    <p class="card-text">
+                      This game was developed to educate users to get to know the heroes of the battle at the Yamato
+                      Hotel. It was built
+                      using Unity Game Engine and C#.</p>
+                    <a href="https://yitroni.itch.io/hotel-yamato" class="btn btn-outline-primary border-2 me-2">itch.io
+                      <i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://github.com/teamldh/Hotel-Yamato" class="btn btn-outline-primary border-2">Github <i
+                        class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Portofolio Node.Js -->
+          <div class="tab-pane fade" id="pills-NodeJs" role="tabpanel" aria-labelledby="pills-NodeJs-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Naksu API.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Terjemahkan Aksara Sunda | API</h5>
+                    <p class="card-text">
+                      Backend program for the Sundanese script translation application's API is built using NodeJS and
+                      Firebase, deployed on Google Cloud</p>
+                    <a href="https://github.com/AxelChristian/bangkitcapstone"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 porto">
+                <div class="card">
+                  <img src="Assets/Back-End API.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Bookshelf API</h5>
+                    <p class="card-text">
+                      Basic back-end was built using Node.Js and this project was created to fulfill assignments or
+                      submissions from the Dicoding course.</p>
+                    <a href="https://github.com/MochammadYanuarFitroni/Back-End_Basic"
+                      class="btn btn-outline-primary border-2">Github <i class="fa-brands fa-square-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Section -->
+    <section id="social">
+      <div class="container h-100">
+        <h1 class="fw-bold text-center my-3">Social</h1>
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-6">
+            <h4 class="fw-bold border-bottom border-secondary">My Social Media</h4>
+            <p class="fs-6">At the moment, I'm actively seeking fresh prospects. You can locate me on social platforms
+              as well as my
+              GitHub profile. Don't hesitate to reach out and connect with me.</p>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center">
+            <ul class="list-group">
+              <li class="list-group-item bg-transparent border-0">
                 <a href="https://www.linkedin.com/in/mochyanuarfitroni/">
                   <i class="fa-brands fa-linkedin"></i><span>mochyanuarfitroni</span>
                 </a>
-            </li>
-            <li class="list-group-item bg-transparent border-0">
+              </li>
+              <li class="list-group-item bg-transparent border-0">
                 <a href="https://github.com/MochammadYanuarFitroni">
                   <i class="fa-brands fa-github"></i><span>MochammadYanuarFitroni</span>
                 </a>
-            </li>
-            <li class="list-group-item bg-transparent border-0">
+              </li>
+              <li class="list-group-item bg-transparent border-0">
                 <a href="https://www.linkedin.com/in/mochyanuarfitroni/">
                   <i class="fa-brands fa-instagram"></i><span>mochyanuarfitroni</span>
                 </a>
-            </li>
-            <li class="list-group-item bg-transparent border-0">
+              </li>
+              <li class="list-group-item bg-transparent border-0">
                 <a href="https://www.linkedin.com/in/mochyanuarfitroni/">
                   <i class="fa-solid fa-envelope"></i><span>mochyanuarfitroni</span>
                 </a>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </Main>
+
+  <!-- Footer -->
+  <footer class="text-center text-light border-top">
+    <p>&copy; 2024 Mochammad Yanuar Fitroni. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
